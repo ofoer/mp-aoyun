@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ShareFixed": "../../components/ShareFixed/ShareFixed"
+  },
+  "navigationBarTitleText": "中国金牌得主-2020东京奥运会",
+  "navigationBarBackgroundColor": "#0081ff",
+  "backgroundColor": "#0081ff",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

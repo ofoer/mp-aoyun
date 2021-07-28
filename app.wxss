@@ -1,0 +1,29 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+.bg-contain{
+  background-size: contain;
+}
+.bg-norepeat{
+  background-repeat: no-repeat;
+}
+.bg-center{
+  background-position: center center;
+}
+.bg-transparent{
+  background-color:transparent;
+}
+.icon-image{
+  display: inline-block;
+    margin-right: 10rpx;
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+}
+.icon-image.icon-image-btn{
+  width: 36rpx;
+  height: 36rpx;
+}
+.margin-bottom-xl-l{
+  margin-bottom: 90rpx;
+}

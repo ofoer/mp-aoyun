@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chinagold/chinagold"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "奖牌榜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#0081ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"/images/1-0-0.png",
+      "selectedIconPath":"/images/1-0-1.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath":"/images/1-1-0.png",
+      "selectedIconPath":"/images/1-1-1.png",
+      "text": "赛程"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

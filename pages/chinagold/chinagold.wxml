@@ -1,0 +1,25 @@
+<view class="margin-bottom-xl-l">
+  <view class="flex solid-bottom padding justify-center bg-blue">
+    <image class="cu-avatar radius lg bg-contain bg-norepeat bg-center" src="../../images/icons-jin.png"> </image>
+  </view>
+  <view class="cu-list menu-avatar bang">
+    <block wx:for="{{items}}">
+      <view class="cu-item">
+        <view class="cu-avatar radius lg bg-contain bg-norepeat bg-center" style="background-image:url({{item.poster}});"></view>
+        <view class="content">
+          <view>{{item.title}}</view>
+          <view class="text-gray text-sm flex">
+            <text class="text-cut">{{item.subTitle}}</text>
+            </view>
+        </view>
+        <view class="action">
+          <view class="text-grey text-xs">第
+          <text class="text-lg text-blue">{{item.number}}</text>
+          枚</view>
+          <!-- <view class="round sm">{{item.total}}</view> -->
+        </view>
+      </view>
+    </block>
+  </view>
+  <ShareFixed />
+</view>

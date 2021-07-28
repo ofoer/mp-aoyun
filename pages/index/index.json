@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ShareFixed": "../../components/ShareFixed/ShareFixed"
+  },
+  "navigationBarTitleText": "奖牌榜",
+  "navigationBarBackgroundColor": "#0081ff",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#0081ff",
+  "enablePullDownRefresh": true
+}

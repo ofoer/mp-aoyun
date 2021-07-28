@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="margin-bottom-xl-l">
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-red"></text> 
+      2020东京奥运会
+    </view>
+    <navigator class="action" url="/pages/chinagold/chinagold">
+      <button size="mini" class="cu-btn bg-green shadow">
+        <image src="/images/icons-jin.png" style="icon-image-btn" class="icon-image" mode="aspectFit"></image>
+        中国金牌得主
+      </button>
+    </navigator>
+  </view>
+  <view class="cu-list menu-avatar bang">
+    <block wx:for="{{items}}">
+      <view class="cu-item">
+        <view class="cu-avatar radius lg bg-contain bg-norepeat bg-center" style="background-image:url({{item.nocLogo}});"></view>
+        <view class="content">
+          <view class="text-black">{{item.nocName}}</view>
+          <view class="text-gray text-sm flex">
+            <view class="margin-right">
+              <image src="/images/icons-jin.png" class="icon-image" mode="aspectFit"></image>
+              <text class="text-red">{{item.gold}}</text>
+            </view>
+            <view class="margin-right">
+              <image src="/images/icons-yin.png" class="icon-image" mode="aspectFit"></image>
+              <text>{{item.silver}}</text>
+            </view>
+            <view class=" margin-right">
+              <image src="/images/icons-tong.png" class="icon-image" mode="aspectFit"></image>
+              <text>{{item.bronze}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="action">
+          <view class="text-grey text-xs">总数</view>
+          <view class="round sm text-blue">{{item.total}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <ShareFixed />
+</view>

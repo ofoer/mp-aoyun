@@ -19,17 +19,17 @@
         <view class="content">
           <view class="text-black">{{item.nocName}}</view>
           <view class="text-gray text-sm flex">
-            <view class="margin-right">
+            <view class="margin-right vertical-middle">
               <image src="/images/icons-jin.png" class="icon-image" mode="aspectFit"></image>
-              <text class="text-red">{{item.gold}}</text>
+              <text class="text-red vertical-middle">{{item.gold}}</text>
             </view>
-            <view class="margin-right">
+            <view class="margin-right vertical-middle">
               <image src="/images/icons-yin.png" class="icon-image" mode="aspectFit"></image>
-              <text>{{item.silver}}</text>
+              <text class="vertical-middle">{{item.silver}}</text>
             </view>
-            <view class=" margin-right">
+            <view class=" margin-right vertical-middle">
               <image src="/images/icons-tong.png" class="icon-image" mode="aspectFit"></image>
-              <text>{{item.bronze}}</text>
+              <text class="vertical-middle">{{item.bronze}}</text>
             </view>
           </view>
         </view>
@@ -37,15 +37,13 @@
           <view class="text-grey text-xs">总数</view>
           <view class="round sm text-blue">{{item.total}}</view>
         </view>
-        <view class="action bg-blue text-white radius">
-          <view class="round sm text-white">
-            <text class="cuIcon-appreciate lg"></text>
-            {{stars[item.nocId].star}}
-          </view>
-          <view class="text-white text-xs">点赞喝彩</view>
+        <view class="action radius margin-left" data-star="{{stars[item.nocId]}}" bindtap="handleStar">
+          <button class="cu-btn round button-hover {{stars[item.nocId]&&stars[item.nocId].isStar ? 'text-blue':'text-gary'}}" id="btn-no-style" size="mini">
+            <text class="cuIcon-appreciate lg"></text>{{stars[item.nocId].star||0}}
+          </button>
         </view>
       </view>
     </block>
   </view>
-  <ShareFixed />
+  <ShareFixed></ShareFixed>
 </view>

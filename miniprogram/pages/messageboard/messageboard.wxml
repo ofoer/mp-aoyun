@@ -1,0 +1,44 @@
+<!--miniprogram/pages/messageboard/messageboard.wxml-->
+<wxs module="ut">
+var getImgUrl = function(idx){
+  var a = [
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/1.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/2.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/3.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/4.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/5.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/6.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/7.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/8.webp",
+    "cloud://pr-1j6j9.7072-pr-1j6j9-1300452003/avatars/9.webp",
+  ]
+  var i = (""+idx).slice(-1)
+  return a[i - 0]
+}
+module.exports.getImgUrl = getImgUrl;
+</wxs>
+<view>
+  <view class="cu-list menu-avatar msg-list">
+    <block wx:for="{{items}}">
+      <view class="cu-item">
+        <image src="{{ut.getImgUrl(index)}}" class="cu-avatar round lg"></image>
+        <view class="content">
+          <view class="text-sm flex">
+            <text class="text-cut-2 text-df">{{item.t}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
+    <view class="action">
+      <text class="cuIcon-evaluate_fill text-red"></text>
+    </view>
+    <input value="{{t}}" bindinput="bindKeyInput"  class="solid-bottom" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" focus="{{false}}" maxlength="28" placeholder="送上祝福吧" cursor-spacing="10"></input>
+    <!-- <view class="action">
+      <text class="cuIcon-evaluate_fill text-red"></text>
+    </view> -->
+    <button bindtap="handleSendStarText" size="mini" class="cu-btn bg-green shadow">喝彩</button>
+  </view>
+</view>

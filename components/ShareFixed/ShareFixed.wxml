@@ -1,2 +1,0 @@
-<!--components/ShareFixed.wxml-->
-<button open-type="share" class="share">分享</button>

@@ -23,6 +23,12 @@
           "pathName": "pages/schedule/schedule",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/messageboard/messageboard",
+          "pathName": "pages/messageboard/messageboard",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -27,3 +27,16 @@
 .cu-list.menu-avatar>.cu-item .action.w-dianzan {
   width: 70rpx;
 }
+.w-full{
+  width: 100%;
+}
+button#btn-no-style{
+  background: none;
+  color: black;
+  width: 100%;
+  padding: 0px 0px;
+  color: #8799a3;
+}
+button#btn-no-style.text-blue{
+  color: #0081ff;
+}

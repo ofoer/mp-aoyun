@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/chinagold/chinagold",
-    "pages/schedule/schedule"
+    "pages/schedule/schedule",
+    "pages/messageboard/messageboard"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,6 +25,12 @@
         "iconPath": "/images/1-1-0.png",
         "selectedIconPath": "/images/1-1-1.png",
         "text": "2020奥运赛程"
+      },
+      {
+        "pagePath": "pages/messageboard/messageboard",
+        "iconPath": "/images/1-2-0.png",
+        "selectedIconPath": "/images/1-2-1.png",
+        "text": "留言喝彩"
       }
     ]
   },

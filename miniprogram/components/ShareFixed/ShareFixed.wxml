@@ -1,0 +1,2 @@
+<!--components/ShareFixed.wxml-->
+<button open-type="share" class="share">分享为中国喝彩</button>

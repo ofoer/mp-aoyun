@@ -37,6 +37,13 @@
           <view class="text-grey text-xs">总数</view>
           <view class="round sm text-blue">{{item.total}}</view>
         </view>
+        <view class="action bg-blue text-white radius">
+          <view class="round sm text-white">
+            <text class="cuIcon-appreciate lg"></text>
+            {{item.total}}
+          </view>
+          <view class="text-white text-xs">点赞喝彩</view>
+        </view>
       </view>
     </block>
   </view>

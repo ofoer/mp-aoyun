@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -14,6 +15,12 @@
         {
           "name": "pages/chinagold/chinagold",
           "pathName": "pages/chinagold/chinagold",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/schedule/schedule",
+          "pathName": "pages/schedule/schedule",
           "query": "",
           "scene": null
         }

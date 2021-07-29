@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/chinagold/chinagold"
+    "pages/chinagold/chinagold",
+    "pages/schedule/schedule"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,16 +12,18 @@
   },
   "tabBar": {
     "selectedColor": "#0081ff",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath":"/images/1-0-0.png",
-      "selectedIconPath":"/images/1-0-1.png",
-      "text": "首页"
-    }, {
-      "pagePath": "pages/index/index",
-      "iconPath":"/images/1-1-0.png",
-      "selectedIconPath":"/images/1-1-1.png",
-      "text": "赛程"
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/1-0-0.png",
+        "selectedIconPath": "/images/1-0-1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "iconPath": "/images/1-1-0.png",
+        "selectedIconPath": "/images/1-1-1.png",
+        "text": "2020奥运赛程"
       }
     ]
   },

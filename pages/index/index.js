@@ -1,8 +1,11 @@
 import { loadGoldMedal } from '../../api/index'
+import stars from './star'
+
 Page({
   data: {
     isFetching:false,
     err: null,
+    stars: stars,
     items: []
   },
   onLoad(){

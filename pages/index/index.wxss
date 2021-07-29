@@ -21,3 +21,9 @@
   border-bottom-right-radius: inherit;
   border-bottom-left-radius: inherit;
 }
+.rot{
+  transform: rotate(180deg);
+}
+.cu-list.menu-avatar>.cu-item .action.w-dianzan {
+  width: 70rpx;
+}

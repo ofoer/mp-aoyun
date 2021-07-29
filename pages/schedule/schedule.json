@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "2020奥运赛程",
+  "navigationBarBackgroundColor": "#0081ff",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#0081ff",
+  "enablePullDownRefresh": true
+}

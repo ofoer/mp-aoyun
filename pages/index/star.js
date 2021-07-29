@@ -62,4 +62,9 @@ const a = [
   {"nocId": "29","nocName": "以色列","nocShortName": "ISR", star: 100},
   {"nocId": "19","nocName": "爱尔兰","nocShortName": "IRL", star: 100}
 ]
-export default a
+let c = {}
+const kv = a.map((item)=>{
+  c[item.nocId] = item
+  return null
+})
+export default c

@@ -40,7 +40,7 @@
         <view class="action bg-blue text-white radius">
           <view class="round sm text-white">
             <text class="cuIcon-appreciate lg"></text>
-            {{item.total}}
+            {{stars[item.nocId].star}}
           </view>
           <view class="text-white text-xs">点赞喝彩</view>
         </view>

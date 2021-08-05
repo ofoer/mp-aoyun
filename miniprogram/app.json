@@ -31,6 +31,12 @@
         "iconPath": "/images/1-2-0.png",
         "selectedIconPath": "/images/1-2-1.png",
         "text": "留言喝彩"
+      },
+      {
+        "pagePath": "pages/messageboard/messageboard",
+        "iconPath": "/images/1-2-0.png",
+        "selectedIconPath": "/images/1-2-1.png",
+        "text": "超多精彩"
       }
     ]
   },

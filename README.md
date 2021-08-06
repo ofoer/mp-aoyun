@@ -1,6 +1,6 @@
 # 奥运相关小程序
 仅供学习参考
-
+![gh_23f4fa4738e0_258.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a012b40226d94bed9c1b69b52852721c~tplv-k3u1fbpfcp-watermark.image)
 ```
 |- mp-aoyun
 |  \- miniprogram

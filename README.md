@@ -21,7 +21,7 @@
 
 记得改上自己的appid
 中国必胜，加油，加油！！
-
+北京冬奥会，残奥会就要来啦，大家可以改吧改吧！自己上架玩
 感谢
 [Tencent](https://github.com/Tencent)
 [colorui](https://github.com/weilanwl/ColorUI)

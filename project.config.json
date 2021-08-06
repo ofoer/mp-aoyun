@@ -42,7 +42,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.18.1",
-  "appid": "wx1861a47679acc204",
+  "appid": "",
   "projectname": "miniprogram-aoyun-gold",
   "debugOptions": {
     "hidedInDevtools": []
